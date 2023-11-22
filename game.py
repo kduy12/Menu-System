@@ -39,7 +39,7 @@ class Game():
             button3.draw(self.display)
 
             if self.CLICKED:
-                self.draw_text("BACKGROUND CHOSE", 40, self.DISPLAY_W / 2, self.DISPLAY_H / 2)
+                self.draw_text("BACKGROUND SELECTED", 40, self.DISPLAY_W / 2, self.DISPLAY_H / 2)
             self.window.blit(self.display, (0,0))
             pygame.display.update()
             self.reset_keys()
